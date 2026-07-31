@@ -60,7 +60,8 @@ body * {
   color: var(--text-color);
 }
 #container {
-  width: 360px;
+  width: 100%;/* fica do tamanho da pagina */
+  max-width:588px;
   /*
   padding-top: 56px; --cima
   padding-right: auto; --direita 
