@@ -61,16 +61,18 @@ body * {
 }
 #container {
   width: 100%;/* fica do tamanho da pagina */
-  max-width:588px;
+  max-width: 588px;/*tamanho maximo*/
+  margin: 56px auto 0px;
+  padding: 0 24px;
   /*
   padding-top: 56px; --cima
   padding-right: auto; --direita 
   padding-bottom: auto; -- baixo
   padding-left: auto; --esquerda
   */
-  margin: 56px auto 0px;
-  padding: 0 24px;
 }
+
+
 #profile img {
   display: block;
   width: 112px;
