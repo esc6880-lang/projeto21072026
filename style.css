@@ -62,6 +62,7 @@ body * {
 #container {
   width: 100%;/* fica do tamanho da pagina */
   max-width: 588px;/*tamanho maximo*/
+
   margin: 56px auto 0px;
   padding: 0 24px;
   /*
