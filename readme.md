@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-DevLinks é um ffagregador de links para usar como cartão de visitas oline. 
+DevLinks é um agrupamento de links para usar como cartão de visitas oline. 
 
 ## 🔖 Layout
 
@@ -43,5 +43,7 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 Esse projeto está sob a licença MIT.
 
 ---
+## aprendizados com o projeto
+Aprendi a exportar projetos para a internet, entender a ideia de funcionamento do JavaScript, HTML e CSS, adicionar imagens, divs e outros elementos às páginas. Também aprendi como o cérebro aprende e conheci técnicas de estudo que ajudam no aprendizado. Além disso, aprendi a utilizar Inteligência Artificial no gerenciamento de projetos e como ela pode auxiliar no desenvolvimento.
 
 Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
