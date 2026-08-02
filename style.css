@@ -5,14 +5,17 @@
   box-sizing: border-box;
 }
 body {
+
   /*background-image: url(./mais_informacoes/assets\ \(1\)/assets/bg-mobile.jpg); 
   adiciona a imagem
   background-repeat: no-repeat; 
   background-position: top center;
   background-size: cover; 
 */
-  background: var(--bg-url) no-repeat top center/cover;
+background: var(--bg-url) no-repeat top center/cover;
+height:100vh;
 }
+
 #profile {
   text-align: center;
   padding: 24px;
@@ -147,4 +150,15 @@ footer {
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./mais_informacoes/assets\ \(1\)/assets/sun.svg)
     no-repeat center;
+}
+/*midia queries*/
+@media(min-width:700px ){
+:root{
+--bg-url: url(./mais_informacoes/assets\ \(1\)/assets/bg-desktop.jpg);
+}
+.light{
+  --bg-url: url(./mais_informacoes/assets\ \(1\)/assets/bg-desktop-light.jpg);
+
+}
+
 }
