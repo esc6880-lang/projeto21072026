@@ -151,7 +151,7 @@ footer {
   --switch-bg-url: url(./mais_informacoes/assets\ \(1\)/assets/sun.svg)
     no-repeat center;
 }
-/*midia queries*/
+/*midia queries muda a imgem de fundo deacaordo com o dispositivo */
 @media(min-width:700px ){
 :root{
 --bg-url: url(./mais_informacoes/assets\ \(1\)/assets/bg-desktop.jpg);
@@ -161,4 +161,15 @@ footer {
 
 }
 
+}
+/*adicina animação*/
+@keyframes animacaolight-moon {
+  /*inicio */
+  from{
+    left:0;
+  }
+  /*fim*/
+  to{
+    left:50%;
+  }
 }
