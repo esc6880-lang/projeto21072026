@@ -45,8 +45,9 @@ height:100vh;
   transform: translateY(-50%); /*muda a posição do elemeno do andar */
 }
 .light #switch button {
-  right: 0; /*  right-> direita*/
-  left: initial; /*left -> esqueda*/
+  /*right: 0;   right-> direita*/
+  /*left: initial; left -> esqueda*/
+  animation:  animacaolight-moon 0.4s forwards;/*mantem o to da animação*/
 }
 #switch span {
   display: block;
@@ -171,5 +172,13 @@ footer {
   /*fim*/
   to{
     left:50%;
+  }
+}
+@keyframes animacaomoon-ligh{
+  from{
+    left:;
+  }
+  to{
+    left:;
   }
 }
