@@ -43,6 +43,7 @@ height:100vh;
   position: absolute; /*novo andar*/
   z-index: 1; /*muda o elemento de andar */
   transform: translateY(-50%); /*muda a posição do elemeno do andar */
+   animation:animacaomoon-ligh.4s;
 }
 .light #switch button {
   /*right: 0;   right-> direita*/
@@ -58,6 +59,10 @@ height:100vh;
   backdrop-filter: blur(4px);
   --webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
+}
+#switch button :hover{
+  outline: 8px solid var(--highlight-color);
+
 }
 body * {
   font-family: "Inter", sans-serif;
@@ -176,9 +181,9 @@ footer {
 }
 @keyframes animacaomoon-ligh{
   from{
-    left:;
+    left:50%;
   }
   to{
-    left:;
+    left:0;
   }
 }
