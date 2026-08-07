@@ -60,7 +60,7 @@ height:100vh;
   --webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
-#switch button :hover{
+#switch button:hover{
   outline: 8px solid var(--highlight-color);
 
 }
