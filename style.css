@@ -13,7 +13,7 @@ body {
   background-size: cover; 
 */
 background: var(--bg-url) no-repeat top center/cover;
-height:100vh;
+min-height:100vh;
 }
 
 #profile {
@@ -48,7 +48,7 @@ height:100vh;
 .light #switch button {
   /*right: 0;   right-> direita*/
   /*left: initial; left -> esqueda*/
-  animation:  animacaolight-moon 0.4s forwards;/*mantem o to da animação*/
+  animation: animacaolight-moon 0.4s forwards;/*mantem o to da animação*/
 }
 #switch span {
   display: block;
